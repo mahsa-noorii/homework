@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calcss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator calculator-grid">
+      <div class="calculator-output output calculator__display">
+        0
+        <div class="data-previous-operand"></div>
+        <div class="data-current-operand"></div>
+      </div>
+      <div class="calculator-keys">
+        <button class="calculator-key calculator-key-operator data-operation">
+          +
+        </button>
+        <button class="calculator-key calculator-key-operator data-operation">
+          -
+        </button>
+        <button class="calculator-key calculator-key-operator data-operation">
+          x
+        </button>
+        <button class="calculator-key calculator-key-operator data-operation">
+          /
+        </button>
+        <button class="calculator-key number">7</button>
+        <button class="calculator-key number">8</button>
+        <button class="calculator-key number">9</button>
+        <button
+          class="calculator-key calculator-key-operator data-all-clear span-tow"
+        >
+          C
+        </button>
+        <button class="calculator-key number">4</button>
+        <button class="calculator-key number">5</button>
+        <button class="calculator-key number">6</button>
+        <button
+          class="calculator-key calculator-key-enter data-equals span-tow"
+        >
+          =
+        </button>
+        <button class="calculator-key number">1</button>
+        <button class="calculator-key number">2</button>
+        <button class="calculator-key number">3</button>
+        <button class="calculator-key number">0</button>
+      </div>
+    </div>
+
+    <div class="img">
+      <img src="/img/calc.png" alt="image" />
+    </div>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
